@@ -1,0 +1,19 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://assets/planets/moon.shader" type="Shader" id=1]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/planet_color = Color( 0.858824, 0.917647, 1, 1 )
+shader_param/atmosphere_color = Color( 0.647059, 0.741176, 0.882353, 1 )
+shader_param/atmosphere_strength = 1.0
+shader_param/planet_size = 0.81
+shader_param/planet_ruggedness = 0.05
+shader_param/rotation_speed = 0.033
+shader_param/light_direction = Vector3( 0.7, -0.5, 0.5 )
+shader_param/light_wrap = 0.33
+shader_param/in_inner = 0.2
+shader_param/in_outer = 0.2
+shader_param/out_inner = 0.2
+shader_param/out_outer = 0.5
+shader_param/antialiasing = 2.0

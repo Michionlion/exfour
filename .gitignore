@@ -1,0 +1,13 @@
+# Temp files
+*.log
+*.swp
+*.out
+
+# Godot
+.import/
+*.translation
+export_presets.cfg
+.mono/
+
+# Image source files
+*.psd
